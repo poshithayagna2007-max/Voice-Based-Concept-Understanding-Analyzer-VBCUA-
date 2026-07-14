@@ -15,7 +15,9 @@ analysis, and PDF report generation in a single Streamlit dashboard.
 - **Weighted final comprehension score** (semantic + coverage + fluency)
 - **AI-generated structured feedback**
 - **Downloadable PDF report**
-
+Project Demo 
+Working of the project video
+https://drive.google.com/file/d/1rMGxhxHG_NIjDjdrAuU6Kl2C0na4Gl5K/view?usp=sharing
 ## Project Structure
 
 ```
