@@ -1,11 +1,11 @@
-# VBCUA — Voice-Based Concept Understanding Analyser
+# 📌VBCUA — Voice-Based Concept Understanding Analyser
 
 An AI-powered web application that evaluates how effectively a user understands
 and explains a conceptual topic through spoken communication. It combines
 speech-to-text transcription, semantic similarity scoring, audio fluency
 analysis, and PDF report generation in a single Streamlit dashboard.
 
-## Features
+## ✨Features
 
 - **Speech-to-text transcription** using OpenAI Whisper
 - **Semantic similarity scoring** against reference concept explanations using Sentence-BERT
@@ -15,10 +15,14 @@ analysis, and PDF report generation in a single Streamlit dashboard.
 - **Weighted final comprehension score** (semantic + coverage + fluency)
 - **AI-generated structured feedback**
 - **Downloadable PDF report**
-Project Demo 
-Working of the project video
-https://drive.google.com/file/d/1rMGxhxHG_NIjDjdrAuU6Kl2C0na4Gl5K/view?usp=sharing
-## Project Structure
+  
+  ## 🎥 Project Demo
+   
+-**Working of the project**
+👉 [Watch the Project Demo]
+🔗https://drive.google.com/file/d/1rMGxhxHG_NIjDjdrAuU6Kl2C0na4Gl5K/view?usp=sharing
+
+## 📂Project Structure
 
 ```
 VBCUA/
@@ -38,7 +42,7 @@ VBCUA/
 └── README.md
 ```
 
-## Setup
+## 🛠️Setup
 
 1. **Create a virtual environment** (Python 3.10+ recommended)
 
@@ -66,7 +70,7 @@ streamlit run app/app.py
 
 The app will open at `http://localhost:8501`.
 
-## How to Use
+## 🚀How to Use
 
 1. Select a reference concept from the sidebar (e.g., "Machine Learning").
 2. Choose a Whisper model size (start with `base`).
@@ -75,7 +79,7 @@ The app will open at `http://localhost:8501`.
 5. Review the dashboard: transcription, semantic analysis, fluency analysis, and feedback tabs.
 6. Click **Download PDF Report** to save a structured report.
 
-## Adding New Concepts
+## 🎯Adding New Concepts
 
 Edit `reference_data/concepts.json` and add a new entry:
 
@@ -88,7 +92,7 @@ Edit `reference_data/concepts.json` and add a new entry:
 
 It will automatically appear in the concept dropdown.
 
-## Scoring Methodology
+## ⚙️Scoring Methodology
 
 | Component             | Weight | Source                                  |
 |------------------------|--------|------------------------------------------|
@@ -101,12 +105,12 @@ Final score bands:
 - **50–74** → Moderate Understanding
 - **0–49** → Poor Understanding
 
-## Tech Stack
+## 📄Tech Stack
 
 Python · Streamlit · OpenAI Whisper · Sentence-Transformers (SBERT) · PyTorch ·
 Librosa · Matplotlib · fpdf2 · NLTK
 
-## Notes for Beginners
+## ⭐Notes for Beginners
 
 - All core logic lives in `modules/` — each file does one job and is documented with comments.
 - `app/app.py` is the only file you run; it imports and orchestrates the modules.
