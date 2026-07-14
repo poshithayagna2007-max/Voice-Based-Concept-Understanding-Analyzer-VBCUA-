@@ -70,6 +70,9 @@ streamlit run app/app.py
 
 The app will open at `http://localhost:8501`.
 
+<img width="1032" height="414" alt="image" src="https://github.com/user-attachments/assets/769a5413-4614-4e1d-943d-1d1d2fb27cec" />
+
+
 ## 🚀How to Use
 
 1. Select a reference concept from the sidebar (e.g., "Machine Learning").
@@ -104,6 +107,8 @@ Final score bands:
 - **75–100** → Strong Understanding
 - **50–74** → Moderate Understanding
 - **0–49** → Poor Understanding
+
+<img width="1032" height="407" alt="image" src="https://github.com/user-attachments/assets/86c3e56a-cb6d-4ae7-850d-7f8b87b98940" />
 
 ## 📄Tech Stack
 
