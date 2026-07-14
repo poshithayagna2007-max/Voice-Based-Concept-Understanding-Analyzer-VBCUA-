@@ -1,0 +1,48 @@
+{
+  "Machine Learning": {
+    "reference_explanation": "Machine learning is a branch of artificial intelligence where computer systems learn patterns from data instead of being explicitly programmed with fixed rules. A model is trained on historical data, it identifies underlying patterns and relationships, and then it uses what it learned to make predictions or decisions on new, unseen data. Common types include supervised learning, where the model learns from labeled examples, unsupervised learning, where it finds hidden structure in unlabeled data, and reinforcement learning, where an agent learns by receiving rewards or penalties for its actions. Machine learning is used in applications like recommendation systems, image recognition, fraud detection, and natural language processing.",
+    "key_points": [
+      "Learning patterns from data rather than explicit programming",
+      "Training phase using historical/labeled data",
+      "Making predictions on new unseen data",
+      "Supervised learning",
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Real world applications"
+    ]
+  },
+  "Cloud Computing": {
+    "reference_explanation": "Cloud computing is the delivery of computing services such as servers, storage, databases, networking, software, and analytics over the internet, instead of owning and maintaining physical hardware. It allows organizations and individuals to access scalable resources on demand and pay only for what they use. The main service models are Infrastructure as a Service, which provides virtualized computing resources, Platform as a Service, which provides a platform for developing and deploying applications, and Software as a Service, which delivers ready to use applications over the internet. Cloud computing offers benefits like scalability, cost efficiency, flexibility, and accessibility from anywhere with an internet connection. Major providers include AWS, Microsoft Azure, and Google Cloud Platform.",
+    "key_points": [
+      "Delivery of computing services over the internet",
+      "No need to own physical hardware",
+      "On demand scalable resources",
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Cost efficiency and scalability benefits"
+    ]
+  },
+  "Artificial Intelligence": {
+    "reference_explanation": "Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think, reason, and learn. AI systems can perform tasks such as understanding natural language, recognizing images, solving problems, and making decisions. AI is a broad field that includes machine learning, deep learning, natural language processing, and computer vision as subfields. The goal of AI is to build systems that can perceive their environment, reason about it, and take actions to achieve specific goals, sometimes adapting their behavior based on experience.",
+    "key_points": [
+      "Simulation of human intelligence in machines",
+      "Reasoning and decision making",
+      "Subfields like machine learning and deep learning",
+      "Natural language processing and computer vision",
+      "Perceiving environment and taking actions",
+      "Adapting behavior based on experience"
+    ]
+  },
+  "Database Management System": {
+    "reference_explanation": "A database management system, or DBMS, is software that allows users to define, create, maintain, and control access to a database. It acts as an interface between the database and end users or application programs, ensuring data is consistently organized and remains easily accessible. A DBMS supports operations such as inserting, updating, deleting, and querying data, while also enforcing rules like data integrity, security, and concurrent access control. Relational database management systems organize data into tables with rows and columns and use SQL as the standard query language, while NoSQL systems handle unstructured or semi-structured data using flexible schemas.",
+    "key_points": [
+      "Software to define, create, and maintain databases",
+      "Interface between database and users/applications",
+      "CRUD operations: create, read, update, delete",
+      "Data integrity, security, and concurrency control",
+      "Relational databases and SQL",
+      "NoSQL databases for unstructured data"
+    ]
+  }
+}
